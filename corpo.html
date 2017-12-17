@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="site.css"/>
+<link rel="stylesheet" type="text/css" href="media.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> Home </title>
+</head>
+<body>
+
+<header>
+<img src="imagens/logotipo.png" alt="logotipo do site"/>
+</header>
+
+<div id="menu">
+  <a href="site.html">Home</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="instituicao.html">Instituição</a>
+  <a href="contato.html">Contato</a>
+</div>
+
+<section>
+
+</section>
+
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var menu = document.getElementById("menu");
+	var sticky = menu.offsetTop;
+
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+		menu.classList.add("sticky")
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+Copyright &copy; G.P 2017, todos os direitos reservados.
+</footer>
+</body>
+</html>

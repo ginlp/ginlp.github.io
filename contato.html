@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="site.css"/>
+<link rel="stylesheet" type="text/css" href="media.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> Contato </title>
+</head>
+<body>
+
+<header>
+<img src="imagens/logotipo.png" alt="logotipo do site"/>
+</header>
+
+<div id="menu">
+  <a href="site.html">Home</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="instituicao.html">Instituição</a>
+  <a href="contato.html">Contato</a>
+</div>
+
+<section>
+<fieldset class="canal">
+<legend>Canais de Atendimento</legend>
+<img src="imagens/email.png"/>
+giovanni.pasquini@fatec.sp.gov.br
+<br/>
+<a href="https://www.facebook.com/giovanni.lp.666">
+<img src="imagens/facebook.jpg"/> </a>
+facebook.com/giovanni.lp.666 
+<br/>
+<img src="imagens/whatsapp.jpg"/>
+(17) 99655-2302
+</fieldset>
+
+<fieldset>
+<form method="post" action="#">
+<input type="text" id="nome" name="nome" maxlength="50"  placeholder="Seu nome" required />
+<input type="email" id="email" name="email" maxlength="50" placeholder="Seu e-mail" required />
+<br/>
+<textarea cols="90" rows="10" id="observacao" placeholder="Deixe aqui a sua mensagem..."></textarea> 
+<br/>
+<input class="button" type="submit" value="Enviar"/>
+</fieldset>
+</section>
+
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var menu = document.getElementById("menu");
+	var sticky = menu.offsetTop;
+
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+		menu.classList.add("sticky")
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+&copy; 2017 G.P. Todos os direitos reservados.
+</footer>
+</body>
+</html>

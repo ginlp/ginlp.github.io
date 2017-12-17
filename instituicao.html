@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="site.css"/>
+<link rel="stylesheet" type="text/css" href="media.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> Instituição </title>
+</head>
+<body>
+
+<header>
+<img src="imagens/logotipo.png" alt="logotipo do site"/>
+</header>
+
+<div id="menu">
+  <a href="site.html">Home</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="instituicao.html">Instituição</a>
+  <a href="contato.html">Contato</a>
+</div>
+
+<section>
+<div class="instituicao">
+	<img src="imagens\00.jpg" alt="Portão Principal"/>
+<p> A Fatec Jales iniciou suas atividades em 10 de setembro de 2007, instalada em espaço concedido à Secretaria do Desenvolvimento Econômico, Ciência, Tecnologia e Inovação pela Secretaria da Educação, de acordo com Decreto 51.068 de 24 de agosto de 2006. </p>
+<p> A Fatec Jales oferece quatro cursos Superiores de Tecnologia, sendo o primeiro deles o curso de Tecnologia em Agronegócio, iniciado no 2º semestre de 2007, com 80 vagas semestrais. O segundo curso de Tecnologia em Sistemas para Internet, iniciado no  1º semestre de 2010, com 70 vagas semestrais. O terceiro curso de Tecnologia em Gestão Empresarial, iniciado no 2º semestre de 2014, com 40 vagas. E o quarto e mais recente curso de Análise e Desenvolvimento de Sistemas, iniciado no 2º semestre de 2017.</p>
+<a href="http://www.fatecjales.edu.br/"><button class="button button" tabindex="5" > Ver mais </button></a>
+</div>
+
+<div class="sistemas">
+	<h1> Sistemas p/ Internet </h1>
+<p> O Tecnólogo em Sistemas para Internet ocupa-se do desenvolvimento de programas, de interfaces e aplicativos, do comércio e do marketing eletrônicos, além de sítios e portais para internet e intranet. Esse profissional gerencia projetos de sistemas, inclusive com acesso a banco de dados, desenvolvendo projetos de aplicações para a rede mundial de computadores e integra mídias nos sítios da internet. Este profissional atua com tecnologias emergentes como computação móvel, redes sem fio e sistemas distribuídos. Cuidar da implantação, atualização, manutenção e segurança dos sistemas para internet também são suas atribuições. </p>
+	<h2> Objetivos do Curso </h2>
+<p>O Curso Superior de Tecnologia em Sistemas para Internet tem como finalidade oferecer aos seus alunos formação de nível superior, gratuita e de qualidade, proporcionando aos tecnólogos conhecimentos e formação integral, com base nas tendências da competitividade contemporânea, tornando-os capazes de intervir no desenvolvimento econômico e social da região na qual o curso se insere.</p>
+	<h1> Máterias </h1>
+</div>
+<div class="container">
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_self" href="algoritmo.html">
+      <img src="imagens\algoritimo.jpg" alt="Algoritimo e Lôgica de Programação">
+    </a>
+    <div class="desc">Algoritimo e Lôgica de Programação</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_self" href="padroes.html">
+      <img src="imagens\padroes.jpg" alt="Padrões de Projeto de Sítios de Internet">
+    </a>
+    <div class="desc">Padrões de Projeto de Sítios Internet</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_self" href="bases.html">
+      <img src="imagens\base.jpg" alt="Bases da Internet">
+    </a>
+    <div class="desc">Bases da Internet</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_self" href="criacao.html">
+      <img src="imagens\criaçao.jpg" alt="Criação de Conteúdo na Web">
+    </a>
+    <div class="desc">Criação de Conteúdo na Web </div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_self" href="design.html">
+      <img src="imagens\design.jpg" alt="Design Digital">
+    </a>
+    <div class="desc">Design Digital </div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_self" href="matematica.html">
+      <img src="imagens\matematica.jpg" alt="Matemática">
+    </a>
+    <div class="desc">Fundamentos de Matemática</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_self" href="ingles.html">
+      <img src="imagens\ingles.jpg" alt="Inglês">
+    </a>
+    <div class="desc">Inglês</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_self" href="portugues.html">
+      <img src="imagens\portugues.jpg" alt="Português">
+    </a>
+    <div class="desc">Leitura e Produção de Textos</div>
+  </div>
+</div>
+
+</div>
+</section>
+
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var menu = document.getElementById("menu");
+	var sticky = menu.offsetTop;
+
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+		menu.classList.add("sticky")
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+Copyright &copy; G.P 2017, todos os direitos reservados.
+</footer>
+</body>
+</html>

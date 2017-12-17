@@ -1,0 +1,75 @@
+/* mobile */
+			/* home */
+@media only screen and (max-width: 320px){
+.home {
+	width:95%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1%;
+    display:inline-block;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+.home img{
+	width:99%;
+	height:auto;
+	}
+		/* sobre */
+.conteudo {
+	width:80%;
+	height:auto;
+	padding:3%;
+	}
+.anime img {
+	width:100%;
+	height:auto;
+	display: block;
+	opacity: 0.5;
+    margin-top:15%;
+	}
+		/* instituição */
+.instituicao img {
+	width:100%;
+	height:auto;
+	margin:1%;
+	}
+.instituicao {
+	width:90%;
+	height:auto;
+	padding:2%;
+	}
+.sistemas h1 {
+	margin:5%;
+	}
+.responsive {
+	width:100%;
+	height:auto;
+	float:left;
+	padding:2%;
+	}
+		/* Aulas */
+.material {
+	width:96%;
+	height:auto;
+	
+}
+.prof img {
+	width:80%;
+	height:auto;
+	margin:9%;
+}
+.trabalho img {
+	width:98%;
+	height:auto;
+}
+		/* contato*/
+.canal {
+	width:90%;
+	margin:1%;
+	}
+fieldset {
+	width:90%;
+	margin:1%;
+	}	
+}
+

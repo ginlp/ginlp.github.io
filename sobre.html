@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="site.css"/>
+<link rel="stylesheet" type="text/css" href="media.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> Sobre </title>
+</head>
+<body>
+
+<header>
+<img src="imagens/logotipo.png" alt="logotipo do site"/>
+</header>
+
+<div id="menu">
+  <a href="site.html">Home</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="instituicao.html">Instituição</a>
+  <a href="contato.html">Contato</a>
+</div>
+
+<section>
+<div class="conteudo">
+<p>Olá, meu nome é Giovanni, tenho 19 anos, nasci na cidade de Urânia mas resido em Jales.</p>
+<p>Sou um admirador da cultura nipônica e um grande fã de animes, mangás e jogos, normalmente gasto meu tempo livre com esses hobbies. Também gosto muito de música, escuto diversos gêneros porém meu preferido é o bom e velho Rock'n Roll!</p>
+<p>Me interessei pelo curso de Sistemas para Internet no último ano do Ensino Médio em 2016, a escola que eu frequentava fez uma visita técnica a FATEC... já conhecia a instituição, mas foi com essa visita que resolvi ingressar no Ensino Superior.</p> 
+</div>
+<div class="anime">
+	<img src="imagens\onepiece.jpg" alt="One Piece" tabindex="7"/>
+</div>
+
+</section>
+
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var menu = document.getElementById("menu");
+	var sticky = menu.offsetTop;
+
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+		menu.classList.add("sticky")
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+Copyright &copy; G.P 2017, todos os direitos reservados.
+</footer>
+</body>
+</html>

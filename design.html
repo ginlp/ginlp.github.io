@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="site.css"/>
+<link rel="stylesheet" type="text/css" href="media.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> Design Digital </title>
+</head>
+<body>
+
+<header>
+<img src="imagens/logotipo.png" alt="logotipo do site"/>
+</header>
+
+<div id="menu">
+  <a href="site.html">Home</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="instituicao.html">Instituição</a>
+  <a href="contato.html">Contato</a>
+</div>
+
+<section>
+<nav class="prof" tabindex="6">
+<img src= "imagens\fabiana.jpg" alt="Fabiana Pupin Masson Caravieri"/>
+</nav>
+
+<div class="material">
+<p>Matéria ministrada pela Prof. Esp. Fabiana Pupin Masson Caravieri.</p>
+
+<h1>• Objetivo</h1>
+<p>Apresentar as bases do design gráfico de produção de sítios Internet com emprego de softwares. Projetar mock-ups (cenas) usando o software de design digital, em seguida implementar o projeto como um sítio Internet. Identificar os principais componentes dos softwares para design gráfico: espaço de trabalho, canvas, painéis, ferramentas e menus. Definir padrões de cores e empregá-los em esquemas de cores. Definir, descrever e empregar os elementos de artes gráficas: o ponto, a linha, a forma, a direção, o tom, a cor, a textura, a dimensão, a escala e o movimento.</p> 
+<p>Projetar logos e marcas. Desenvolver um logo para própria página. Descrever e utilizar camadas. Otimizar organização de arquivos para trabalho em equipe. Conhecer e empregar os padrões de gravação de arquivos de imagem. Escolher o programa mais adequado para tratamento de imagens. Definir e criar um guia com os quatro elementos básicos de qualquer sítio (cabeçalhos, navegação, conteúdo e rodapé) com aplicação de padrões de design, esquemas de cores e fontes tipográficas. Projetar vários estados de interação e comportamento. Criar um sítio completo com várias páginas com todos os elementos de design, HTML e CSS estudados no curso. Empregar os padrões de resolução de tela e impressão e saber converter medidas aplicadas ao desenvolvimento de sítios para Internet. Calcular tamanhos seguros dos layouts dos sítios Internet.</p>
+<a href="instituicao.html"><button class="button button" tabindex="7"> Voltar </button></a>
+</div>
+
+<div class="trabalho">
+<h1>Alguns trabalhos desenvolvidos:</h1>
+<img src= "imagens\ex.png" alt="Borboleta"/>
+<img src= "imagens\ex2.jpg" alt="SOS"/>
+<img src= "imagens\ex3.png" alt="James Bond"/>
+</div>
+</section>
+
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var menu = document.getElementById("menu");
+	var sticky = menu.offsetTop;
+
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+		menu.classList.add("sticky")
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+Copyright &copy; G.P 2017, todos os direitos reservados.
+</footer>
+</body>
+</html>

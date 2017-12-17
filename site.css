@@ -1,0 +1,234 @@
+body {
+  margin:0%;
+  font-family:sans-serif;
+}
+		/* texto */
+p {
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 1.6;
+	font-size: 1em;
+}
+
+		/* header */
+header {
+	width:100%;
+	background-color: #8c8c8c;
+}
+header img{
+	max-width:100%;
+	height:auto;
+}
+
+		/* menu */
+#menu {
+  z-index: 5;
+  overflow: hidden;
+  background-color: #333;
+}
+#menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 12.8px;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+#menu a:hover {
+	color:black;
+    background-color: #69B6D4;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+		/* button */
+.button {
+    float:right;
+    border:none;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+	padding:15px 32px;
+    text-align:center;
+	text-decoration:none;
+    display:inline-block;
+    background-color:#69B6D4;
+	transition-duration: 0.4s;
+}
+.button a {
+	color:black;
+	text-decoration:none;
+}
+.button:hover {
+	border: 2px solid #69B6D4;
+	background-color:black;
+	color:#69B6D4;
+}
+
+		/* home */
+.home {
+	width:40%;
+	height:auto;
+	padding:1%;
+	margin:2% 3% 2% 4%;
+    display:inline-block;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.home img{
+	width:40%;
+	height:auto;
+    float:left;
+	margin:1%;
+}
+
+		/* sobre */
+.conteudo {
+	width:50%;
+	height:auto;
+	padding:1%;
+	margin-top:1%;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:0 16px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.anime img {
+	width:100%;
+	height:auto;
+	display: block;
+	opacity: 0.5;
+	margin-top:5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+		/* Instituição */
+.instituicao {
+	width:90%;
+	height:auto;
+	float:right;
+	padding:1%;
+	text-align:center;
+	margin:3%;
+	box-shadow:0 5px 5px 0 rgba(0,0,0,0.2),0 10px 25px 0 rgba(0,0,0,0.10);
+}
+.instituicao img {
+	width:30%;
+	height:auto;
+	margin:1%;
+	float:left;
+}
+.sistemas {
+	width:80%;
+	margin:auto;
+}
+.sistemas h1 {
+	color:#69B6D4;
+	text-align:center;
+	margin-bottom:-10px;
+}
+.sistemas h2 {
+	text-align:center;
+	margin-bottom:-10px;
+}
+.container {
+	width:90%;
+	margin:auto;
+}
+.responsive {
+	width:20%;
+	height:auto;
+	float:left;
+	padding:2%;
+}
+div.gallery {
+    border: 1px solid grey;
+	opacity: 0.5;
+}
+div.gallery:hover {
+    border: 1px solid black;
+	opacity: 1;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding:2%;
+    text-align: center;
+}
+
+	/* Materias */
+.material {
+	float:right;
+	width:60%;
+	height:auto;
+	padding:2%;
+	margin:%;
+	text-align:center;
+	box-shadow:0 16px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.prof img {
+	float:left;
+    width:20%;
+	height:auto;
+	padding:1%;
+}
+.trabalho {
+	padding:1%;
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+}
+.trabalho img {
+	width:20%;
+	height:auto;
+	margin:1%;
+}
+
+.trabalho img:hover {
+	-moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+		/* contato*/
+.canal {
+	width:20%;
+	height:auto;
+	float:right;
+	margin:2%;
+}
+.canal img{
+	width:15%;
+	margin:1%;
+}
+fieldset {
+	float:left;
+	width:30%;
+	margin:2% 0 14% 2%;
+}
+input {
+    width:40%;
+	margin:1%;
+	padding:1%;
+	font-size:1em;
+    box-sizing: border-box;
+}
+textarea {
+    width:82%;
+	margin:1%;
+	font-size:1em;
+}
+
+footer {
+	border-top: 9px groove #747474;
+    background-color:black;
+	text-align:center;
+	margin-top:1%;
+	padding:30px;
+	color:white;
+	clear:both;
+}

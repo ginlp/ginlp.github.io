@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="site.css"/>
+<link rel="stylesheet" type="text/css" href="media.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> Home </title>
+</head>
+<body>
+
+<header>
+<img src="imagens/logotipo.png" alt="logotipo do site"/>
+</header>
+
+<div id="menu">
+  <a href="site.html">Home</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="instituicao.html">Instituição</a>
+  <a href="contato.html">Contato</a>
+</div>
+
+<section>
+  <div class="home">
+     <div>
+       <img src="imagens/w3c.png" alt="W3C Logo"/>
+        <p>O Consórcio World Wide Web (W3C) é uma comunidade internacional que desenvolve padrões com o objetivo de garantir o crescimento da web.</p>
+	   <a target="_blank" href="http://www.w3c.br/Home/WebHome">
+	   <button class="button button" tabindex="5"> Ver mais </button></a>
+    </div>
+  </div>
+<div class="home">
+     <div>
+       <img src="imagens/maujor.jpg" alt="Maujor Logo"/>
+      <p>Criado em 01 de agosto de 2003, com a finalidade de ensinar CSS, em uma época que esta tecnologia era pouca conhecida e utilizada no Brasil.</p>
+	  <a target="_blank" href="http://www.maujor.com/">
+	  <button class="button button" tabindex="6"> Ver mais </button></a>
+    </div>
+  </div>
+  <div class="home">
+     <div>
+       <img src="imagens/windows.png" alt="Windows Logo"/>
+        <p>Se o seu Windows está lento, alguns truques podem ajudar a resolver o problema sem que você precise gastar muito tempo ou dinheiro.</p>
+	    <a target="_blank" href="https://olhardigital.uol.com.br/dicas_e_tutoriais/noticia/10-dicas-para-acelerar-o-windows-10/68720">
+		<button class="button button" tabindex="7"> Ver mais </button></a>
+    </div>
+  </div>
+    <div class="home">
+     <div>
+       <img src="imagens/android.jpg" alt="Android Logo"/>
+       <p>Lançado em 2015, o Google tem um programa para caçadores de bugs encontrarem erros e falhas de segurança nos softwares da empresa.</p>
+       <a target="_blank" href="https://tecnoblog.net/216094/google-android-falhas-recompensa/">
+	   <button class="button button" tabindex="8"> Ver mais </button></a>
+	</div>
+  </div>
+</section>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var menu = document.getElementById("menu");
+var sticky = menu.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    menu.classList.add("sticky")
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+Copyright &copy; G.P 2017, todos os direitos reservados.
+</footer>
+</body>
+</html>
